@@ -1,3 +1,12 @@
+# how to connect to the database automatically without having to create
+# connection strings. generated when we created our application and
+# ran rake db:create. the development, test, and production databases
+# are all configured.
+#From that stage, the ActiveRecord::Base.connection method connects your application to the database
+# different database options for each type of environment.
+# anything requires database configuration it will be here.
+
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
